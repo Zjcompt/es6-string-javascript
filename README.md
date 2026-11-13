@@ -14,7 +14,7 @@ Adds syntax highlight support for code, placed in ES6 template literals:
 
 ## Usage
 
-Simply insert `javascript` or the comment `/*javascript*/` before a template literal.
+Simply insert `js` or `javascript` or the comment `/*js*/` or `/*javascript*/` before a template literal.
 
 > Tip: Comment in the beginning of untagged template literal is required.
 
