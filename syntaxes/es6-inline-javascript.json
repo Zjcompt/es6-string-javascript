@@ -18,7 +18,7 @@
 	},
 	"patterns": [
 		{
-			"begin": "(.?(javascript))(`)",
+			"begin": "(.?(js|javascript))(`)",
 			"end": "(`)",
 			"beginCaptures": {
 				"1": {
@@ -35,7 +35,7 @@
 			]
 		},
 		{
-			"begin": "(\\s?\\/?\\*?\\s?(javascript|inline-javascript)\\s?\\*?\\/?\\s?)(`)",
+			"begin": "(\\s?\\/?\\*?\\s?(js|javascript|inline-javascript)\\s?\\*?\\/?\\s?)(`)",
 			"beginCaptures": {
 				"1": {
 					"name": "comment.block"
@@ -52,7 +52,7 @@
 			]
 		},
 		{
-			"begin": "(?<=\\=|\\:)\\s+(\\/\\/\\s?(javascript|inline-javascript)\\s?$)",
+			"begin": "(?<=\\=|\\:)\\s+(\\/\\/\\s?(js|javascript|inline-javascript)\\s?$)",
 			"beginCaptures": {
 				"1": {
 					"name": "comment.line"
