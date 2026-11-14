@@ -2,7 +2,7 @@
   "name": "es6-string-javascript",
   "displayName": "es6-string-javascript",
   "description": "Highlight javascript language in ES6 template literals",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "zjcompt",
   "icon": "docs/logo.png",
   "engines": {
